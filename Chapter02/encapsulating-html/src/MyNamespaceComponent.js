@@ -12,14 +12,14 @@ class Second extends React.Component {
   }
 }
 
-class MyComponent extends React.Component {
+class MyNamespaceComponent extends React.Component {
   render() {
     return <section>{this.props.children}</section>;
   }
 }
 
-MyComponent.First = First;
-MyComponent.Second = Second;
+MyNamespaceComponent.First = First;
+MyNamespaceComponent.Second = Second;
 
-export default MyComponent;
+export default MyNamespaceComponent;
 export { First, Second };
