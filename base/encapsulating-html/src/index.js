@@ -5,6 +5,7 @@ import MySection from "./MySection";
 import MyButton from "./MyButton";
 import WithoutFragments from "./WithoutFragments";
 import WithFragments from "./WithFragments";
+import MyContainer from "./MyContainer";
 
 const enabled = false;
 const text = 'A Button';
@@ -60,6 +61,7 @@ class MyComponent extends React.Component {
               <WithoutFragments />
               <WithFragments />
           </div>
+          <MyContainer />
       </section>
     );
   }
